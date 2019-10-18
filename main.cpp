@@ -38,7 +38,7 @@ bool IsGameInFocus(){
         if(Str != L"Dishonored"){
             return false;
         }
-    }else if(Str != L"Dishonored 2" && Str != L"Dishonored: Death of the Outsider"){
+    }else if(Str != L"Dishonored 2" && Str != L"Dishonored: Death of the Outsider" && Str != L"Morrowind"){
         return false;
     }
 
